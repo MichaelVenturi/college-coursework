@@ -1,0 +1,21 @@
+Lab #2
+Exploring Classes 
+Write a definition of a class that has the following properties.
+1.	The name of the class is secretType.
+2.	(Private) - The class secretType has four member variable:  name (a string), age and weight (int), height (double)
+3.	(Public) - The class secretType has the following member functions: (Make the accessor functions const)
+a.	print – outputs the data in the member variables in a nice format
+b.	constructor – that sets the name, age, weight and height
+c.	getName – value returning function returns the name
+d.	getAge – value returning function returns the height
+e.	getWeight – value returning function returns the weight
+f.	weightStatus – value returning function that returns  a string according to the following chart (taken from: http://www.whathealth.com/bmi/formula.html  You can find the formula for BMI (body mass index) at that same site):
+ 
+BMI	Weight Status 
+Below 18.5 	Underweight
+18.5 -24.9 	Normal
+25 - 29.9 	Overweight
+30 & Above 	Obese
+ 
+4.	Write definitions of all the member functions of class secretType.
+5.	Complete the program and capture the output of 3 runs in a word document
