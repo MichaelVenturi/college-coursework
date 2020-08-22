@@ -1,0 +1,10 @@
+Aaron Judge,New York Yankees:		396 290 387 66 4 110 246 .273
+Brett Gardner,New York Yankees:		1499 876 1355 230 68 124 524 .260
+Aaron Hicks,New York Yankees:		654 324 506 89 10 82 276 .236
+Gary Sanchez,New York Yankees:		372 226 343 61 1 105 262 .246
+Pete Alonso,New York Mets:			161 103 155 30 2 53 120 .260
+Wilson Ramos,New York Mets:			901 334 881 140 2 123 499 .275
+Amed Rosario,New York Mets:			357 167 360 60 19 28 133 .270
+Rafael Devers,Boston Red Sox:		335 222 372 92 4 63 211 .282
+Christian Vazquez,Boston Red Sox: 429 169 360 72 4 33 152 .256
+Mookie Betts,Boston Red Sox:		794 613 965 229 26 139 470 .301
