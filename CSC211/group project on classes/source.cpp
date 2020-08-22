@@ -440,3 +440,4 @@ void printTrap() {
 }
 // Our function for part 3 is the “isQuad” function, which we integrated into part 2.  
 // It does not move on to check what shape each set makes until it knows it is a quadrilateral first
+
