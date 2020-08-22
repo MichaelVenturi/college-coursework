@@ -1,0 +1,18 @@
+Structures
+Lab #1
+
+A menu-driven program gives the user the option to find statistics about different baseball players.  The program reads from a file and stores the data for ten baseball players, 
+including player’s team, name of player, number of homeruns, batting average, and runs batted in. 
+(You can make up your data, or get it online, for example: http://espn.go.com/mlb/statistics ) 
+Write a program that declares a struct to store the data for a player.  Declare an array of 10 components to store the data for 10 baseball players. 
+The program prints out a menu (in a loop, so this can be done again and again) giving the user a choice to:
+
+print out all users and statistics
+print out the statistics for a specific player
+print out all data for a specific team
+update the data for a particular player (change one of the statistics)
+
+DO ALL WORK IN FUNCTIONS. USE A FUNCTION TO READ THE DATA, A FUNCTION TO PRINT THE MENU, and FUNCTIONS FOR EACH OF THE MENU OPTIONS.
+
+
+Before the program terminates, give the user the option to store the data in an output file.
