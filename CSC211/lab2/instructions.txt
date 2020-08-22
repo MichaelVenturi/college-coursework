@@ -19,3 +19,4 @@ Below 18.5 	Underweight
  
 4.	Write definitions of all the member functions of class secretType.
 5.	Complete the program and capture the output of 3 runs in a word document
+
