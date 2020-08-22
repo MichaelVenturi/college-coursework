@@ -1,0 +1,14 @@
+CLASSES, DYNAMIC ARRAYS AND POINTERS
+
+Define a class called textLines that will be used to store a list of lines of text (each line can be specified as a string).
+Use a dynamic array to store the list.  In addition, you should have a private data member that specifies the length of the list.  
+Create a constructor that takes a file name as parameter, and fills up the list with lines from the file.  Make sure that you set the dynamic array to expand large enough to hold all the lines from the file.  Also, create a constructor that takes an integer parameter that sets the size of an empty list. 
+
+Write member functions to:
+1. remove and return the last  line from the list 
+2. add a new line onto the end of the list, if there is room for it, otherwise print a message and expand the array
+3. empty the entire list 
+4. return the number of lines still on the list
+5. take two lists and return one combined list (with no duplicates)
+6. copy constructor to support deep copying
+7.  remember the destructor!
