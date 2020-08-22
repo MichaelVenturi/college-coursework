@@ -16,3 +16,4 @@ DO ALL WORK IN FUNCTIONS. USE A FUNCTION TO READ THE DATA, A FUNCTION TO PRINT T
 
 
 Before the program terminates, give the user the option to store the data in an output file.
+
