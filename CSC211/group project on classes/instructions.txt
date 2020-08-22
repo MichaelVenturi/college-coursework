@@ -26,3 +26,4 @@ To help with the math. This site changes the line formula to the form y = mx + b
 Each of those sets of lines (if graphed in a Cartesian plane) create a quadrilateral [4 sided shape].  (To make this program easier, the first two lines in the set will be opposite each other in the quadrilateral, and the second two lines in the set will be opposite each other in the quadrilateral.) Write a program that uses your header file and class that was defined for Part 1 of this assignment to determine if each  quadrilateral in the data file is a parallelogram, trapezoid ,  rectangle, rhombus or square!.
 
 3.	Suppose you are given a set of four lines, but are not guaranteed that they would form a quadrilateral. (For example, all four lines might be parallel to each other!)  Can you write a program that takes any set of four lines, and specifies IF a quadrilateral is created, and what type of quadrilateral it is?!?
+
