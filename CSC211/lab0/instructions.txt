@@ -1,0 +1,28 @@
+Review - for loops, if-else, switch, functions
+
+
+Many computer applications, such as Microsoft Excel, can compare date values that occur after January 1, 1900.  For example, these programs can determine if 06/06/99 is less than 
+(comes before) 11/01/00.  They use January 1, 1900 as their reference point.  This becomes day 1.  All other dates are calculated as to the number of days they are relative to 
+January 1, 1900.  For example January 2, 1900 is equal to 2.  October 31, 2000 is equal to 36829.    
+Notwithstanding, Excel cannot tell you which day of the week these two dates fell on.
+
+For this assignment, you are to write a C++ program which will: 
+
+1.	Have the User enter in a date.  
+
+2.	Calculate the "day value" of that date.  For this you will need to write several functions as stated below. 
+
+a)	A function that determines if a year is a leap year.
+b)	A function that determines the number of days in a month. Remember if the year is a leap year then February has 29 days. You will need the leap year function.  
+    This is an example of a function calling another function.
+c)	A function that determines the number of days in the year of the date in question. This function uses the days in month function.  
+d)	Based on the "day value" of the date, and the fact that January 1, 1900 was Monday, write another  function that prints the day of the week that date fell on
+     •	Ex. For 10/31/2000 you need to calculate the number of days from 01/01/1900 to12/31/1999, and then calculate the days from 01/01/2000 to 10/31/2000.  
+    This will give you the "day value".  Use a modulus 7 division on this day value to find the day of the week the date falls out on.
+e)	Your input file will have at least twenty dates to process.  You will read up to the end of file.
+ 
+3.	Your program should print a line of code for each date to the console as follows: 
+
+Tuesday 10/31/2000 has a day value of 36829 
+
+
