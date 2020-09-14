@@ -1,2 +1,0 @@
-Using the code from Part I, change it so that instead of using the first entry in the txt file to determine the size of the array, you first read through the file and count how many entries there are. Then you create your dynamic array to the appropriate size, close and reopen the file, and then read it into the dynamic array. This will allow for us to use this program for txt file with unknown amount of entries.
-
