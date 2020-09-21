@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Task 3 Michael Venturi</title>
+  </head>
+  <body>
+    <main>
+      <form>
+        <fieldset>
+          <legend>Personal Information</legend>
+          <p>
+            <label for="first-name">First Name*: </label>
+            <input
+              id="first-name"
+              name="first-name"
+              type="text"
+              required="required"
+              placeholder="Your first name"
+            />
+          </p>
+          <p>
+            <label for="last-name">Last Name*: </label>
+            <input
+              id="last-name"
+              name="last-name"
+              type="text"
+              required="required"
+              placeholder="Your last name"
+            />
+          </p>
+          <p>
+            <label for="email">Email Address*: </label>
+            <input
+              id="email"
+              name="email"
+              type="text"
+              required="required"
+              placeholder="Your email address"
+            />
+          </p>
+          <p>
+            <label for="password">Password input*: </label>
+            <input
+              id="password"
+              name="password"
+              type="password"
+              required="required"
+            />
+          </p>
+          <p>
+            <label for="password-r">Repeat password*: </label>
+            <input
+              id="password-r"
+              name="password-r"
+              type="password"
+              required="required"
+            />
+          </p>
+        </fieldset>
+
+        <fieldset>
+          <legend>Profile Information</legend>
+          <p>
+            <label>Grade level </label>
+            <input
+              type="radio"
+              name="grade-level"
+              value="Freshman"
+              id="Freshman"
+            />
+            <label for="Freshman">Freshman</label>
+
+            <input
+              type="radio"
+              name="grade-level"
+              value="Sophomore"
+              id="Sophomore"
+            />
+            <label for="Sophomore">Sophomore</label>
+
+            <input type="radio" name="grade-level" value="Junior" id="Junior" />
+            <label for="Junior">Junior</label>
+
+            <input type="radio" name="grade-level" value="Senior" id="Senior" />
+            <label for="Senior">Senior</label>
+          </p>
+          <p>
+            <label for="favorite-genre">Favorite Genre of Music*:</label>
+            <select
+              id="favorite-genre"
+              name="favorite-genre"
+              required="required"
+              multiple
+            >
+              <option value="rock">Rock and Roll</option>
+              <option value="hiphop">Hip Hop</option>
+              <option value="edm">EDM</option>
+              <option value="classical">Classical</option>
+            </select>
+          </p>
+          <p>
+            <label for="favorite-wu-tang"
+              >Favorite member of Wu Tang Clan*:</label
+            >
+            <select
+              id="favorite-wu-tang"
+              name="favorite-wu-tang"
+              required="required"
+            >
+              <option value="">-- Select --</option>
+              <option value="rza">RzA</option>
+              <option value="gza">GzA</option>
+              <option value="odb">Ol' Dirty</option>
+              <option value="inspectah-deck">Inspectah Deck</option>
+              <option value="raekwon">Raekwon</option>
+              <option value="u-god">U-God</option>
+              <option value="ghostface">Ghostface Killah</option>
+              <option value="meth">Method Man</option>
+            </select>
+          </p>
+          <p>
+            <input type="checkbox" name="spam" id="spam" value="spam" />
+            <label for="spam"
+              >Sign me up for spam emails, because I don’t get enough junk
+              email!</label
+            >
+          </p>
+        </fieldset>
+        <small>* Required</small>
+        <input type="submit" value="Submit this form!" />
+      </form>
+    </main>
+  </body>
+</html>
