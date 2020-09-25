@@ -1,0 +1,29 @@
+p {
+  color: #333;
+}
+header a:hover {
+  text-decoration: none;
+}
+header a {
+  color: #ff6347;
+}
+nav ul li {
+  display: inline;
+}
+h1 + p {
+  text-decoration: underline;
+}
+.am {
+  text-decoration: underline;
+  font-style: normal;
+}
+span {
+  font-style: italic;
+}
+
+footer li:first-child {
+  list-style-type: none;
+}
+footer li:last-child {
+  font-weight: bold;
+}
