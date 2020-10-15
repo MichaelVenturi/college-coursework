@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/css/style.css" rel="stylesheet" />
+    <link href="/css/form.css" rel="stylesheet" />
+    <title>Project 1</title>
+  </head>
+  <body>
+    <header>
+      <div class="top-header">
+        <h1 class="h1-style">Michael Venturi</h1>
+      </div>
+
+      <nav>
+        <ul class="flex-h-f h-f-list">
+          <li class="flex-shrink"><div class="link left"></div></li>
+          <li>
+            <a class="link" href="/index.html">Home</a>
+          </li>
+          <li><a class="link" href="/about.html">About</a></li>
+          <li><a class="link" href="/form.html">Contact</a></li>
+          <li class="flex-grow"><div class="link right"></div></li>
+        </ul>
+      </nav>
+      <div class="title-card">
+        <h2 class="h2-style">Contact</h2>
+      </div>
+    </header>
+    <main class="content">
+      <h3>Submit the following form to contact me</h3>
+      <form method="GET">
+        <div class="margin">
+          <fieldset>
+            <legend>Personal details</legend>
+            <div class="flex-row">
+              <p>
+                <label for="firstname" class="f-label">First name*</label>
+                <input
+                  type="text"
+                  name="firstname"
+                  id="firstname"
+                  placeholder="enter your first name"
+                  required="required"
+                />
+              </p>
+              <p>
+                <label for="lastname" class="f-label">Last name* </label>
+                <input
+                  type="text"
+                  name="lastname"
+                  id="lastname"
+                  placeholder="enter your last name"
+                  required="required"
+                />
+              </p>
+            </div>
+            <p>
+              <label for="email">Email address*</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="enter your email address"
+              />
+            </p>
+          </fieldset>
+        </div>
+        <div class="margin">
+          <fieldset>
+            <legend>Contact details</legend>
+            <p>
+              <label for="reason">Why are you contacting me?*</label>
+            </p>
+            <select name="reason" id="reason" required="required">
+              <option value="">--Select--</option>
+              <option value="business">Business inquiry</option>
+              <option value="question">General question</option>
+              <option value="other">Other</option>
+            </select>
+            <p>
+              <label for="other-reason"
+                >If other, please explain why you are contacting me:</label
+              >
+            </p>
+            <textarea
+              name="other-reason"
+              id="other-reason"
+              cols="70"
+              rows="7"
+            ></textarea>
+          </fieldset>
+        </div>
+        <div class="margin">
+          <fieldset>
+            <legend>Other details</legend>
+            <p>
+              <label>Could you rate this site on a scale from 1-10?</label>
+            </p>
+            <div class="flex-row">
+              <div class="entry">
+                <label for="1">1</label>
+                <input type="radio" name="rating" id="1" value="1" />
+              </div>
+              <div class="entry">
+                <label for="2">2</label>
+                <input type="radio" name="rating" id="2" value="2" />
+              </div>
+              <div class="entry">
+                <label for="3">3</label>
+                <input type="radio" name="rating" id="3" value="3" />
+              </div>
+              <div class="entry">
+                <label for="4">4</label>
+                <input type="radio" name="rating" id="4" value="4" />
+              </div>
+              <div class="entry">
+                <label for="5">5</label>
+                <input type="radio" name="rating" id="5" value="5" />
+              </div>
+              <div class="entry">
+                <label for="6">6</label>
+                <input type="radio" name="rating" id="6" value="6" />
+              </div>
+              <div class="entry">
+                <label for="7">7</label>
+                <input type="radio" name="rating" id="7" value="7" />
+              </div>
+              <div class="entry">
+                <label for="8">8</label>
+                <input type="radio" name="rating" id="8" value="8" />
+              </div>
+              <div class="entry">
+                <label for="9">9</label>
+                <input type="radio" name="rating" id="9" value="9" />
+              </div>
+              <div class="entry">
+                <label for="10">10</label>
+                <input type="radio" name="rating" id="10" value="10" />
+              </div>
+            </div>
+          </fieldset>
+        </div>
+        <div class="button-margin">
+          <button type="submit">Submit this form</button>
+          <br />
+          <div class="font-12px">* required</div>
+        </div>
+      </form>
+    </main>
+    <footer>
+      <ul class="flex-h-f h-f-list">
+        <li><div class="foot">Michael Venturi &copy;</div></li>
+        <li><div class="foot flex-grow"></div></li>
+        <li><div class="foot">est. 2020</div></li>
+      </ul>
+    </footer>
+  </body>
+</html>
