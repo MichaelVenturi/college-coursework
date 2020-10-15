@@ -1,0 +1,41 @@
+.profile-pic {
+  box-sizing: border-box;
+  /* margin: 20px; */
+  border: 8px ridge gold;
+}
+.flex-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 10px;
+  align-items: center;
+}
+.item {
+  margin: 20px;
+  /* padding: 20px; */
+}
+.font-18px {
+  font-size: 18px;
+}
+table {
+  /* border-spacing: 15px; */
+  border-collapse: collapse;
+  width: 50%;
+  background: white;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  padding: 5px;
+}
+th {
+  height: 40px;
+  text-decoration: underline;
+}
+td {
+  height: 20px;
+}
+.content li {
+  padding: 5px;
+}
