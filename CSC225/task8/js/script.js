@@ -1,3 +1,12 @@
+$("form").submit(function (event) {
+  event.preventDefault();
+});
+
+$(document).keypress(function (event) {
+  if (event.which == 13) {
+    $("#prepend").click();
+  }
+});
 $("#prepend").click(function (event) {
   event.preventDefault();
   console.log("clicked");
@@ -20,4 +29,5 @@ $("#prepend").click(function (event) {
   }
   // prepend
   tasks.prepend(`<p>${input}</p>`);
+  $("#input").val("");
 });
