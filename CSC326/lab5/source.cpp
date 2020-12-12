@@ -110,3 +110,4 @@ bool doesArrive(double arrivTime) {
 	catch(PrecondViolatedExcep &e){
 		cerr << e.what() << endl;
 	}*/
+
